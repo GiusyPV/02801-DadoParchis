@@ -22,16 +22,17 @@ import java.util.Random;
  * @author Josefina Pugliese Vazquez
  */
 public class Main {
-public static final Random RND = new Random();
+
+    public static final Random RND = new Random();
 
     public static void main(String[] args) {
-        
+
         int vMax = 6;
         int vMin = 1;
-        
+
         int dado = RND.nextInt(vMax - vMin + 1) + vMin;
-        
+
         System.out.printf("%s%d%n", "Tirada dado .......: ", dado);
-        
+
     }
 }
